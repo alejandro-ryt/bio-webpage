@@ -1,0 +1,93 @@
+* {
+    font-family: Lato, sans-serif !important;
+    color: #2d3436;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' viewBox='0 0 2550 1500' width='2550' height='1500'%3E%3Cdefs%3E%3ClinearGradient gradientTransform='rotate(-360, 0.5, 0.5)' x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='gggrain-gradient2'%3E%3Cstop stop-color='hsl(0, 0%25, 92%25)' stop-opacity='1' offset='-0%25'%3E%3C/stop%3E%3Cstop stop-color='rgba(255,255,255,0)' stop-opacity='0' offset='100%25'%3E%3C/stop%3E%3C/linearGradient%3E%3ClinearGradient gradientTransform='rotate(360, 0.5, 0.5)' x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='gggrain-gradient3'%3E%3Cstop stop-color='hsl(55, 100%25, 80%25)' stop-opacity='1'%3E%3C/stop%3E%3Cstop stop-color='rgba(255,255,255,0)' stop-opacity='0' offset='100%25'%3E%3C/stop%3E%3C/linearGradient%3E%3Cfilter id='gggrain-filter' x='-20%25' y='-20%25' width='140%25' height='140%25' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.78' numOctaves='2' seed='98' stitchTiles='stitch' x='0%25' y='0%25' width='100%25' height='100%25' result='turbulence'%3E%3C/feTurbulence%3E%3CfeColorMatrix type='saturate' values='0' x='0%25' y='0%25' width='100%25' height='100%25' in='turbulence' result='colormatrix'%3E%3C/feColorMatrix%3E%3CfeComponentTransfer x='0%25' y='0%25' width='100%25' height='100%25' in='colormatrix' result='componentTransfer'%3E%3CfeFuncR type='linear' slope='3'%3E%3C/feFuncR%3E%3CfeFuncG type='linear' slope='3'%3E%3C/feFuncG%3E%3CfeFuncB type='linear' slope='3'%3E%3C/feFuncB%3E%3C/feComponentTransfer%3E%3CfeColorMatrix x='0%25' y='0%25' width='100%25' height='100%25' in='componentTransfer' result='colormatrix2' type='matrix' values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 18 -10'%3E%3C/feColorMatrix%3E%3C/filter%3E%3Cfilter id='gggrain-saturate' x='-20%25' y='-20%25' width='140%25' height='140%25' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeColorMatrix type='saturate' values='3' x='0%25' y='0%25' width='100%25' height='100%25' in='SourceGraphic' result='colormatrix'%3E%3C/feColorMatrix%3E%3C/filter%3E%3C/defs%3E%3Cg filter='url(%23gggrain-saturate)'%3E%3Crect width='100%25' height='100%25' fill='hsl(0, 0%25, 92%25)'%3E%3C/rect%3E%3Crect width='100%25' height='100%25' fill='url(%23gggrain-gradient3)'%3E%3C/rect%3E%3Crect width='100%25' height='100%25' fill='url(%23gggrain-gradient2)'%3E%3C/rect%3E%3Crect width='100%25' height='100%25' fill='transparent' filter='url(%23gggrain-filter)' opacity='1' style='mix-blend-mode: normal'%3E%3C/rect%3E%3C/g%3E%3C/svg%3E");
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.container .header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container .header .nameContainer {
+    position: absolute;
+    top: 3.5rem;
+    margin-left: 1.5rem;
+}
+
+.container .header .circle {
+    width: 10rem;
+    height: 10rem;
+    background-color: #f1c40f;
+    border-radius: 50%;
+}
+
+.container .header .title {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: rem;
+}
+
+.container .header .title strong {
+    font-size: 1rem;
+    font-weight: bold !important;
+}
+
+.container .header .name {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.aboutMe {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.aboutMe h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.aboutMe span {
+    position: absolute;
+    top: 1rem;
+    width: 14rem;
+    height: 1rem;
+    background-color: #f1c40f;
+    z-index: -1;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
