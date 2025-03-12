@@ -1,6 +1,11 @@
+:root {
+    --yellow: #f1c40f;
+    --black: #2d3436;
+}
+
 * {
     font-family: Lato, sans-serif !important;
-    color: #2d3436;
+    color: var(--black);
 }
 
 body {
@@ -42,7 +47,7 @@ body {
 .container .header .circle {
     width: 10rem;
     height: 10rem;
-    background-color: #f1c40f;
+    background-color: var(--yellow);
     border-radius: 50%;
 }
 
@@ -81,7 +86,7 @@ body {
     top: 1rem;
     width: 14rem;
     height: 1rem;
-    background-color: #f1c40f;
+    background-color: var(--yellow);
     z-index: -1;
 }
 
